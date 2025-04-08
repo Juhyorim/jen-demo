@@ -5,6 +5,7 @@
 
 1. git master 브랜치에 코드 push
 2. webhook으로 jenkins 파이프라인 트리거
+3. `src/`밑 폴더에 변경사항 발생 시 다음 진행
     1. springboot 코드를 빌드
     2. springboot 도커 이미지 생성, docker hub로 push
     3. ssh로 spring 서버 접속
